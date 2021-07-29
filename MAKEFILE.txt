@@ -1,0 +1,6 @@
+output: Pets.o 
+    g++ Pets.o -o output
+Pets.o: Pets.cpp
+    g++ -c main.cpp
+clean: 
+    rm *.o output
